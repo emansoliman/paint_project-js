@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="multi_drow.css">
+    </head>
+    <body>
+
+        
+           
+        <div class="buttons">
+            <button id="free_hand">free_hand</button>
+        <svg class="line" width="50" height="50">
+            <line x1="10" y1="10" x2="50" y2="50" style="stroke:rgb(255, 123, 0);stroke-width:2" id="line" />
+            
+        </svg>
+        <svg  class="rect" width="50" height="50">
+            <rect width="20" height="20" x="14" y="20" id="rect"
+
+            style="fill:rgb(255, 123, 0);stroke-width:10;" />
+        </svg>
+        <svg  class="circle" width="50" height="50">
+
+            <circle cx="22" cy="30" r="14" stroke="orange" stroke-width="1" fill="orange" id="circle" />
+
+        </svg>
+        <button id="clear">clear</button>
+    </div>
+
+        <div class="color" >
+            <label for="fillstyle">Fill Style</label>
+            <input type="color"  id ="fillstyle"value="#ff0000">
+
+            <label for="strack">Strack Style</label>
+            <input type="color"  id="strack" value="#8E1111">
+
+
+  
+        </div>
+        <canvas id="my-canvas" width="450" height="350">
+      
+          
+
+            
+</canvas>
+<svg  id="clearr"  style="background-color:white; border: 1px solid black;" width="50" height="50">
+    <rect width="20" height="20" x="14" y="20" id="rect"
+
+    style="fill:rgb(255, 255, 255);stroke-width:10;" />
+</svg>
+
+        
+      
+     
+<script src="multi_drow.js"></script>
+       
+    </body>
+</html>
